@@ -56,6 +56,9 @@ wget https://raw.githubusercontent.com/juniorfdtech/newsocks/master/proxy443.py 
 history -c
 fi
 
+sshd_config
+
+
 if [ -e "$abobora$rosa" ] ; then
 echo -e "\033[1;32mPort 80 OK √ \033[0m"
 history -c
