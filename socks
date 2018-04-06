@@ -2,7 +2,7 @@
 
 clear
 
-echo -e "\033[4;36m © Two-VPS | 2018 All rights reserved \033[0m"
+echo -e "\033[4;36m © TwoSSH | 2018 All rights reserved \033[0m"
 
 echo ""
 
@@ -16,7 +16,7 @@ abobora=/root/
 verde=proxy443.py
 rosa=proxy80.py
 
-sshd_config(){ echo "# © TwoVPS | 2018 All rights reserved
+sshd_config(){ echo "# © TwoSSH | 2018 All rights reserved
 #
 Port 22 
 Port 144
@@ -100,4 +100,4 @@ chmod a+x proxy80.py && nohup python proxy80.py > proxy80.txt &
 fi
 
 echo ""
-echo -e "\033[1;32mTudo pronto! \n\nTwo-VPS \033[0m"
+echo -e "\033[1;32mTudo pronto! \n\nTwoSSH \033[0m"
